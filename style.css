@@ -1,0 +1,119 @@
+html{
+    overflow-y:scroll;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+nav, div.navbar-header, div.navbar-collapse{
+  background: #163056;
+  color: white;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar a.navbar-brand{
+    font-size: 25px;
+}
+
+span.icon-bar{
+    background-color: white;
+}
+
+button.navbar-toggle:hover{
+    background-color: #445977;
+}
+
+ul.nav li a:hover, ul.nav li a:active{
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar-brand {
+  height: auto;
+  line-height: normal;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+
+.thumbnail{
+    border: 0px;
+}
+
+img{
+    width: 1080px;
+}
+
+.content, .footer{
+    max-width: 1000px;
+    margin: auto;
+}
+
+p:not(.footer){
+    font-size: 20px;
+}
+
+.jumbotron{
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+th, td{
+    text-align: center;
+    width: 50px;
+}
+
+.table th.red, td.red{
+    color: red;
+}
+
+.table th.blue, td.blue{
+    color: blue;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.table-content{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+
+
+
+
+div.content img{
+    width: 400px;
+}
+
+div.graphics .thumbnail img{
+    width: 1080px;
+}
+
+div.graphics .thumbnail{
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+}
+
+#center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.graphics div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
